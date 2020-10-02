@@ -1,23 +1,146 @@
 body {
 	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
 }
 h1 {
-	margin: 0;
+	margin: 50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
+	font-size: 5.625rem;
+	color: #66BFBF;
+	line-height: 2;
 }
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	color: #66BFBF;
+	font-weight: normal;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color:#11999E;
+}
+
 .top-container {
-	background-color: #ffe75e;
+	background-color: #eaf6f6;
 	border: 10px;
+	position: relative;
+	padding-top: 100px;
+}
+.profile-image {
+	border-radius: 100%;
+	margin-top: 100px;
+	height: 9.375rem;
+	width: 9.375rem;
+}
+.top-para {
+	color: #40514e;
+}
+hr {
+	width: 5%;
+	margin: 100px auto;
+	border-style: dotted none none;
+  	border-color: #eaf6f6;
+  	border-width: 10px;
+  	height: 0px;
 }
 .middle-container {
-	height: 200px;
-	width: 200px;
-	background-color: blue;
+	
 }
 .bottom-container {
-	height: 200px;
-	width: 200px;
-	background-color: red;
+	margin-top: 100px;
+	background-color: #66bfbf;
+	padding: 20px;
 }
 .pro {
 	text-decoration: underline;
 }
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+.bottom-cloud {
+	position: absolute;
+	bottom: 300px;
+	left: 300px;
+}
+.my-skills-h2 {
+	color: #66BFBF;
+}
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.skill-image1 {
+	width: 25%;
+	float: left;
+	padding-right: 30px;
+}
+.skill-image2 {
+	width: 25%;
+	float: right;
+	padding-left: 30px;
+}
+.spicy {
+	color: #11999E;
+}
+.p-footer {
+	margin: 0;
+	color: #eaf6f6;
+	font-size: .75rem;
+	padding-top: 20px;
+}
+.footer-link {
+	padding: 0 20px 20px 20px;
+	color: #11999E;
+	text-decoration: none;
+}
+.myButton {
+	margin-top: 50px;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a) );
+	background:-moz-linear-gradient( center top, #44c767 5%, #5cbf2a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a');
+	background-color:#44c767;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+text-indent:0;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}.myButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767) );
+	background:-moz-linear-gradient( center top, #5cbf2a 5%, #44c767 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767');
+	background-color:#5cbf2a;
+}.myButton:active {
+	position:relative;
+	top:1px;
+}
+.skill-para1 {
+}
+.skill-para2 {
+}
+
